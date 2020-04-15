@@ -19,6 +19,11 @@ if (d < 0)
 {
     printf("NO");
 }
+else if (d == 0)
+{
+    printf("%.2f", (-b)/(2*a));
+    
+}
 else
 {
     xone = (-b + sqrt(d))/(2*a);
